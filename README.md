@@ -16,6 +16,12 @@ From there activate the virtual environment by running:
 
 You should now see your terminal begin with the name of the virtual environment.
 
+### Installing Apache Spark
+
+If you are on a Mac you can use the following [tutorial](https://www.freecodecamp.org/news/installing-scala-and-apache-spark-on-mac-os-837ae57d283f/) from FreeCodeCamp to install and run Apache Spark which is needed to run the pyspark commands in the notebook.
+
+For Windows Users, the following [https://sparkbyexamples.com/pyspark/how-to-install-and-run-pyspark-on-windows/](guide) should help.
+
 ### Install Dependencies
 
 To install the dependencies run:
