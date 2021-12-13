@@ -16,6 +16,20 @@ From there activate the virtual environment by running:
 
 You should now see your terminal begin with the name of the virtual environment.
 
+### Install Dependencies
+
+To install the dependencies run:
+
+```pip3 install -r requirements.txt```
+
+### (Optional) Download data from TLC
+
+If you want to rerun the process we created for scraping data from the TLC's website you can run:
+
+```
+python3 download_tlc_data.py
+```
+
 ### Installing Apache Spark
 
 If you are on a Mac you can use the following [tutorial](https://www.freecodecamp.org/news/installing-scala-and-apache-spark-on-mac-os-837ae57d283f/) from FreeCodeCamp to install and run Apache Spark which is needed to run the pyspark commands in the notebook.
@@ -67,12 +81,6 @@ Once the 3 containers (1 Master + 2 Workers) are spun up, you can verify by navi
 - Worker 2 - [localhost:9092](http://localhost:9092)
 
 Now you are ready to run the *Connect to Spark Docker Cluster.ipynb* workbook.
-
-### Install Dependencies
-
-To install the dependencies run:
-
-```pip3 install -r requirements.txt```
 
 ### Run Jupyter
 
